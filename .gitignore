@@ -1,0 +1,18 @@
+# Ignore .DS_Store files
+.DS_Store
+
+# Ignore the mtdataset directory
+/data
+
+# Ignore the pretrained_model directory
+/pretrained_model
+
+/cagan_mt
+
+/cagan_mt_crop
+
+/cagan_Data0421
+
+/cagan_Data0421_new
+
+/__MACOSX
