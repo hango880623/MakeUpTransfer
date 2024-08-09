@@ -32,13 +32,21 @@ This project aims to reproduce the CA-GAN paper using our own dataset, which inc
 ## Results
 - **Makeup Transfer:** Left: source image / Middle: result image / Right: target image.
   - Example:
-  <p align="center"><img width="40%" src="jpg/merge_images.jpg" alt="Merge Image"/></p>
+  <div style="display: flex; justify-content: center; width: 60%;">
+    <img src="jpg/merge_images.jpg" alt="Merge Image" style="width: 40%;"/>
+  </div>
+
 - **Dark Skin Tone:** Left: source image / Middle: result image / Right: target image.
   - Example:
-  <p align="center"><img width="40%" src="jpg/example_images_2.jpg" alt="Example Image 2"/></p>
+  <div style="display: flex; justify-content: center; width: 60%;">
+    <img src="jpg/example_images_2.jpg" alt="Example Image 2" style="width: 40%;"/>
+  </div>
+
 - **Light Skin Tone:** Left: source image / Middle: result image / Right: target image.
   - Example:
-  <p align="center"><img width="40%" src="jpg/example_images_3.png" alt="Example Image 3"/></p>
+  <div style="display: flex; justify-content: center; width: 60%;">
+    <img src="jpg/example_images_3.png" alt="Example Image 3" style="width: 47%;"/>
+  </div>
 
 ## Citation
 - **CA-GAN Paper:** [Link to paper](https://arxiv.org/abs/2008.10298)
