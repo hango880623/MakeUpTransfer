@@ -1,7 +1,7 @@
 # Makeup Transfer with GAN
 
 ## Overview
-<p align="center"><img width="50%" src="jpg/Teaser.jpg" alt="Teaser Image"/></p>
+<p align="center"><img width="80%" src="jpg/Teaser.jpg" alt="Teaser Image"/></p>
 
 This project aims to reproduce the CA-GAN paper using our own dataset, which includes a variety of skin tones based on the Monk Skin Tone Scale. The goal is to generate predicted lipstick colors based on the skin tone and the original images provided.
 
@@ -14,9 +14,11 @@ This project aims to reproduce the CA-GAN paper using our own dataset, which inc
 
 ### Step 1: Retrieve Original and Target Lip Makeup Color
 - **Original Lip Color:** Crop the lips from the image to extract the makeup color.
-  - Example: `jpg/rgb_color_lips_strip.jpg`
+  - Example:
+  <p align="center"><img width="40%" src="jpg/output_image_with_face.jpg" alt="color Image"/></p>
 - **Target Makeup Color:** Display the result of the retrieved makeup color on the face.
-  - Example: `jpg/output_image_with_face.jpg`
+  - Example:
+  <p align="center"><img width="40%" src="jpg/rgb_color_lips_strip.jpg" alt="Original Image"/></p>
 
 ### Step 2: Train with CA-GAN Model
 - Train the model using the CA-GAN architecture.
@@ -29,11 +31,14 @@ This project aims to reproduce the CA-GAN paper using our own dataset, which inc
 
 ## Results
 - **Makeup Transfer:** Left: source image / Middle: result image / Right: target image.
-  - Example: `jpg/merge_images.jpg`
+  - Example:
+  <p align="center"><img width="40%" src="jpg/merge_images.jpg" alt="Merge Image"/></p>
 - **Dark Skin Tone:** Left: source image / Middle: result image / Right: target image.
-  - Example: `jpg/example_images_2.jpg`
+  - Example:
+  <p align="center"><img width="40%" src="jpg/example_images_2.jpg" alt="Example Image 2"/></p>
 - **Light Skin Tone:** Left: source image / Middle: result image / Right: target image.
-  - Example: `jpg/example_images_3.jpeg`
+  - Example:
+  <p align="center"><img width="40%" src="jpg/example_images_3.png" alt="Example Image 3"/></p>
 
 ## Citation
 - **CA-GAN Paper:** [Link to paper](https://arxiv.org/abs/2008.10298)
